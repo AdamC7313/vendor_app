@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    width: 400px;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    font-family: "inter";
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: black;
+}

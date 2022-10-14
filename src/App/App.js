@@ -7,7 +7,7 @@ import ToDos from '../Pages/ToDos/ToDos';
 
 function App() {
   return (
-    <div>
+    <div className='full-container'>
        <Router>
       <Navigation />
       <main>
