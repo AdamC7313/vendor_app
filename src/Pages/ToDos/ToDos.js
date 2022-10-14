@@ -1,3 +1,9 @@
+import './ToDos.css';
+
 export default function ToDos() {
-    return <h1>ToDos</h1>
+    return (
+    <div className='todos-container'>
+        <h1>ToDos</h1>
+    </div>
+    )
 }
