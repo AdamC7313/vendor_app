@@ -3,16 +3,19 @@ import AddNew from './Components/AddNew/AddNew';
 import FilterComponent from './Components/FilterComponent/FilterComponent';
 import vendors from './Components/FilterComponent/vendors';
 
-export default function Vendors() {
+
+export default function Vendors(props) {
     let newVendorList = vendors.filter(vendor => vendor.category == 'New Vendor')
     let pursuingList = vendors.filter(vendor => vendor.category == 'Pursuing')
     let docsSentList = vendors.filter(vendor => vendor.category == 'Docs Sent')
     let fullyExecutedList = vendors.filter(vendor => vendor.category == 'Fully Executed')
-    
+
+
+
     return (
     <div className='vendors-container'>
         <div className='add-new-container'>
-        <AddNew />
+        <AddNew onClick={props.handleShow}/>
         </div>
         <div className='new-vendor-container filter-component'>
         <FilterComponent title='New Vendor' vendors={newVendorList} />

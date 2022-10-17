@@ -1,7 +1,7 @@
 import './AddNew.css';
 
-export default function AddNew() {
+export default function AddNew(props) {
     return (
-        <button>Add New</button>
+        <button onClick={props.onClick}>Add New</button>
     )
 }
