@@ -1,0 +1,27 @@
+let vendors = [
+    {vendorName: 'VendorABC', 
+    specialty: 'Ophthalmology', 
+    site: 'Orlando', 
+    followUp: '09/15',
+    status: '',
+    category: 'New Vendor'}, 
+    {vendorName: 'VendorABC', 
+    specialty: 'Ophthalmology', 
+    site: 'Orlando', 
+    followUp: '09/15',
+    status: 'Intro email sent',
+    category: 'Pursuing'},
+    {vendorName: 'VendorABC', 
+    specialty: 'Ophthalmology', 
+    site: 'Orlando', 
+    followUp: '09/15',
+    status: 'Docs sent',
+    category: 'Docs Sent'},
+    {vendorName: 'VendorABC', 
+    specialty: 'Ophthalmology', 
+    site: 'Orlando', 
+    followUp: '09/15',
+    status: 'Docs signed',
+    category: 'Fully Executed'}]
+
+export default vendors;
