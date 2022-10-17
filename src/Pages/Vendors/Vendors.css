@@ -1,0 +1,35 @@
+.vendors-container {
+    display: grid;
+    grid-template: 50px auto / .5fr .5fr .5fr .5fr;
+}
+
+.add-new-container {
+    grid-area: 1 / 1;
+}
+
+.new-vendor-container {
+    grid-area: 2 / 1 / 2 / 1;
+}
+
+.pursuing-container {
+    grid-area: 2 / 2 / 2 / 2;
+}
+
+.docs-sent-container {
+    grid-area: 2 / 3 / 2 / 3;
+}
+
+.fully-executed-container {
+    grid-area: 2 / 4 / 2 / 4;
+}
+
+.filter-component {
+    background-color: #C3C3C3;
+    margin: 10px 10px;
+    border-radius: 15px;
+    padding: 0px 10px;
+    padding-bottom: 15px;
+    max-width: 80%;
+    text-overflow: ellipsis;
+    box-shadow: 2px 2px 2px 2px grey;
+}

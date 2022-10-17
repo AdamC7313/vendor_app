@@ -1,0 +1,32 @@
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+.filter-component-container {
+    display: inline-block;
+    width: 100%;
+}
+
+IndVendor {
+    grid-area: indvend;
+}
+
+.title {
+    display: inline-block;
+}
+
+.count {
+    float: right;
+    background-color: white;
+    padding: 1px 10px 5px 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.indvend-container {
+    max-width: 100%;
+}
